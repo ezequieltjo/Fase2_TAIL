@@ -3,4 +3,4 @@
 """
 import pandas as pd
 dataset = pd.read_csv('https://raw.githubusercontent.com/franklinthony/dataset/master/titanic_disaster.csv', sep = ',')
-print(dataset)
+print(dataset.describe())
